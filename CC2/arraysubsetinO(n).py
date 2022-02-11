@@ -1,0 +1,6 @@
+l1=list(map(str,input().split()))
+l2=list(map(str,input().split()))
+l1="".join(l1)
+l2="".join(l2)
+if l2 in l1:print("yes")
+else:print("no")
