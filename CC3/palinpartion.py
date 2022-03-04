@@ -14,11 +14,8 @@ def minPalPartion(string, i, j):
         ans = min(ans, count)
     return ans
  
- 
-def main():
-    string = "ababbbabbababa"
-     print(
-     "Min cuts needed for Palindrome Partitioning is ",
-     minPalPartion(string, 0, len(string) - 1),
-    )
-main()      
+s = input()
+print("Min cuts needed for Palindrome Partitioning is ",minPalPartion(s, 0, len(s) - 1))
+
+
+  
